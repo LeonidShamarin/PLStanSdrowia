@@ -1,0 +1,32 @@
+:root {
+    --desktop-body-small-font-family: "Inter Display", Helvetica;
+    --desktop-body-small-font-weight: 400;
+    --desktop-body-small-font-size: 16px;
+    --desktop-body-small-letter-spacing: 0px;
+    --desktop-body-small-line-height: 24px;
+    --desktop-body-small-font-style: normal;
+    --desktop-button-font-family: "Inter Display", Helvetica;
+    --desktop-button-font-weight: 500;
+    --desktop-button-font-size: 16px;
+    --desktop-button-letter-spacing: 0px;
+    --desktop-button-line-height: 24px;
+    --desktop-button-font-style: normal;
+    --desktop-title-h1-font-family: "Oranienbaum", Helvetica;
+    --desktop-title-h1-font-weight: 400;
+    --desktop-title-h1-font-size: 40px;
+    --desktop-title-h1-letter-spacing: 0px;
+    --desktop-title-h1-line-height: 48px;
+    --desktop-title-h1-font-style: normal;
+    --desktop-title-h3-font-family: "Oranienbaum", Helvetica;
+    --desktop-title-h3-font-weight: 400;
+    --desktop-title-h3-font-size: 24px;
+    --desktop-title-h3-letter-spacing: 0px;
+    --desktop-title-h3-line-height: 32px;
+    --desktop-title-h3-font-style: normal;
+    --desktop-title-h2-font-family: "Oranienbaum", Helvetica;
+    --desktop-title-h2-font-weight: 400;
+    --desktop-title-h2-font-size: 32px;
+    --desktop-title-h2-letter-spacing: 0px;
+    --desktop-title-h2-line-height: 40px;
+    --desktop-title-h2-font-style: normal;
+}
