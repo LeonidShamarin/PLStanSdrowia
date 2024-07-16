@@ -1,4 +1,3 @@
-
 .test-page {
   background-color: #f6f4f2;
   display: flex;
@@ -1141,34 +1140,13 @@
   flex-direction: column;
   width: 186px;
   align-items: flex-start;
-  gap: 15px;
+
   position: absolute;
-  top: 101px;
+  top: 90px;
   left: 1094px;
 }
 
-.test-page .POLITYKA-PRYWATNO-CI {
-  position: relative;
-  align-self: stretch;
-  margin-top: -1px;
-  font-family: "Inter Display-Regular", Helvetica;
-  font-weight: 400;
-  color: #cc8e1e;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: 18px;
-}
-
-.test-page .span {
-  font-family: "Inter Display-Regular", Helvetica;
-  font-weight: 400;
-  color: #cc8e1e;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: 18px;
-}
-
-.test-page .p {
+.test-page .policy-item {
   position: relative;
   align-self: stretch;
   font-family: "Inter Display-Regular", Helvetica;
@@ -1219,7 +1197,7 @@
 }
 
 .test-page .payment {
-    margin-top: -10px;
+  margin-top: -10px;
   display: flex;
   flex-direction: row;
   gap: 15px;
