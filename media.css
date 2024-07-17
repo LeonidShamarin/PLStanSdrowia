@@ -1,227 +1,135 @@
-Планшети
-@media screen and (max-width: 1024px) {
-  .test-page .center-menu {
-    gap: 10px;
-  }
 
-  .test-page .right-block .contact-button {
-    display: none;
-  }
-
-  .test-page .block {
+/* Стилі для планшетів (від 768px до 1024px) */
+@media (max-width: 1024px) {
+  .header {
     flex-direction: column;
+    align-items: flex-start;
+    margin-left: -25%;
   }
 
-  .test-page .title-subtitle,
-  .test-page .photo {
-    width: 100%;
-  }
-
-  .test-page .view-2 {
-    flex-wrap: wrap;
-  }
-
-  .test-page .element {
-    flex-basis: calc(50% - 10px);
-  }
-
-  .test-page .form-sale {
-    flex-direction: column;
-  }
-
-  .test-page .czekamy-na-ciebie {
-    margin-top: 20px;
-  }
-  .text-wrapper-18,
-  .text-wrapper-19,
-  .text-wrapper-20 {
-    font-size: 20px;
-  }
-
-  .overlap-3 {
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .test-page .header {
+  .center-menu {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .test-page .center-menu {
+  .center-menu p,
+  .right-block div {
+    margin: 5px 0;
+  }
+  .block {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    margin-top: 200px;
+  }
+
+  .title-subtitle {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .photo {
     margin-top: 20px;
   }
 
-  .test-page .right-block {
-    width: 100%;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
-
-  .test-page .languages,
-  .frame-4 {
-    display: none;
-  }
-
-  .test-page .a {
-    font-size: 24px;
-  }
-  
-  .test-page .text-wrapper-31 {
-    font-size: 14px;
-  }
-  
-  .test-page .box-icon-medical {
-    bottom: 10px;
-    right: 10px;
-  }
-  
-  .test-page .icon-medical {
-    width: 20px;
-    height: 20px;
-  }
-
-  .test-page .text-wrapper-8 {
-    font-size: 24px;
-  }
-
-  .test-page .view-2 {
+  .element {
     flex-direction: column;
+    align-items: center;
   }
-
-  .test-page .element {
-    flex-basis: 100%;
+  .view{
+    margin-top: 700px;
   }
-
-  .test-page .text-wrapper-9 {
-    font-size: 18px;
-  }
-
-  .test-page .element-2 {
-    font-size: 12px;
-  }
-
-  .test-page .text-wrapper-12 {
-    font-size: 24px;
-  }
-
-  .test-page .swiper {
-    height: 300px;
-  }
-
-  .test-page .headline {
-    position: static;
-    background: #f5f5f5;
-  }
-
-  .test-page .element-3 {
-    font-size: 18px;
-  }
-
-  .test-page .text-wrapper-13,   
-  .test-page .text-wrapper-14 {
-    font-size: 12px;
-  }
-
-  .test-page .text-wrapper-15 {
-    font-size: 20px;
-  }
-
-  .text-wrapper-18,
-  .text-wrapper-19,
-  .text-wrapper-20 {
-    font-size: 20px;
-  }
-
-  .overlap-3 {
-    flex-direction: column;
+  .view-3{
+    margin-top: 700px;
   }
 }
 
-@media screen and (max-width: 480px) {
-  .test-page .header {
+/* Стилі для мобільних пристроїв (до 767px) */
+@media (max-width: 767px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
     padding: 10px;
+    margin-left: -25%;
   }
 
-  .test-page .vector,
-  .login-icon {
-    width: 30px;
-    height: 30px;
+  .center-menu {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
   }
 
-  .test-page .container {
+  .center-menu p,
+  .right-block div {
+    margin: 5px 0;
+  }
+
+  .right-block {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .login-icon,
+  .contact-button,
+  .languages {
+    margin-top: 10px;
+  }
+
+  .contact-button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .block {
+    margin-top: 350px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title-subtitle {
+    text-align: center;
     padding: 0 10px;
   }
-  
-  .test-page .a {
-    font-size: 20px;
-  }
-  
-  .test-page .text-wrapper-31 {
-    font-size: 12px;
+
+  .photo {
+    margin-top: 20px;
+    width: 100%;
   }
 
-  .test-page .text-wrapper-8 {
-    font-size: 20px;
+  .photo img {
+    max-width: 100%;
   }
 
-  .test-page .text-wrapper-9 {
+  .box-icon-medical {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-top: -50px;
+    margin-left: 10px;
+  }
+
+  .icon-medical {
+    width: 100%;
+    height: auto;
+  }
+
+  /*  */
+  .element {
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin: 10px 0;
+  }
+
+  .text-wrapper-9 {
     font-size: 16px;
   }
 
-  .test-page .element-2 {
-    font-size: 11px;
+  .text-wrapper-10, .text-wrapper-11 {
+    font-size: 14px;
   }
 
-  .test-page .skontaktuj-si-z-nami {
-    padding: 8px 16px;
-    font-size: 12px;
-  }
-
-  .test-page .text-wrapper-12 {
-    font-size: 20px;
-  }
-
-  .test-page  .swiper {
-    height: 200px;
-  }
-
-  .test-page .element-3 {
-    font-size: 16px;
-  }
-
-  .test-page .text-wrapper-15 {
-    font-size: 18px;
-  }
-
-  th, td {
-    padding: 5px;
-    font-size: 12px;
-  }
-
-  .test-page .logo-text {
-    padding: 20px 0;
-  }
-
-  .test-page .text-wrapper-18,
-  .test-page .text-wrapper-19,
-  .test-page .text-wrapper-20 {
-    font-size: 16px;
-  }
-
-  .test-page .contact-block {
-    padding: 20px 10px;
-  }
-
-  .test-page .text-wrapper-23 {
-    font-size: 18px;
-  }
-
-  .test-page .social-media-item-2 {
-    width: 25px;
-    height: 25px;
+  .skontaktuj-si-z-nami {
+    padding: 10px;
+    font-size: 14px;
   }
 }
