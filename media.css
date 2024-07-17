@@ -1,0 +1,227 @@
+/* Планшети */
+@media screen and (max-width: 1024px) {
+  .test-page .center-menu {
+    gap: 10px;
+  }
+
+  .test-page .right-block .contact-button {
+    display: none;
+  }
+
+  .test-page .block {
+    flex-direction: column;
+  }
+
+  .test-page .title-subtitle,
+  .test-page .photo {
+    width: 100%;
+  }
+
+  .test-page .view-2 {
+    flex-wrap: wrap;
+  }
+
+  .test-page .element {
+    flex-basis: calc(50% - 10px);
+  }
+
+  .test-page .form-sale {
+    flex-direction: column;
+  }
+
+  .test-page .czekamy-na-ciebie {
+    margin-top: 20px;
+  }
+  .text-wrapper-18,
+  .text-wrapper-19,
+  .text-wrapper-20 {
+    font-size: 20px;
+  }
+
+  .overlap-3 {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .test-page .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .test-page .center-menu {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  .test-page .right-block {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .test-page .languages,
+  .frame-4 {
+    display: none;
+  }
+
+  .test-page .a {
+    font-size: 24px;
+  }
+  
+  .test-page .text-wrapper-31 {
+    font-size: 14px;
+  }
+  
+  .test-page .box-icon-medical {
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .test-page .icon-medical {
+    width: 20px;
+    height: 20px;
+  }
+
+  .test-page .text-wrapper-8 {
+    font-size: 24px;
+  }
+
+  .test-page .view-2 {
+    flex-direction: column;
+  }
+
+  .test-page .element {
+    flex-basis: 100%;
+  }
+
+  .test-page .text-wrapper-9 {
+    font-size: 18px;
+  }
+
+  .test-page .element-2 {
+    font-size: 12px;
+  }
+
+  .test-page .text-wrapper-12 {
+    font-size: 24px;
+  }
+
+  .test-page .swiper {
+    height: 300px;
+  }
+
+  .test-page .headline {
+    position: static;
+    background: #f5f5f5;
+  }
+
+  .test-page .element-3 {
+    font-size: 18px;
+  }
+
+  .test-page .text-wrapper-13,   
+  .test-page .text-wrapper-14 {
+    font-size: 12px;
+  }
+
+  .test-page .text-wrapper-15 {
+    font-size: 20px;
+  }
+
+  .text-wrapper-18,
+  .text-wrapper-19,
+  .text-wrapper-20 {
+    font-size: 20px;
+  }
+
+  .overlap-3 {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .test-page .header {
+    padding: 10px;
+  }
+
+  .test-page .vector,
+  .login-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .test-page .container {
+    padding: 0 10px;
+  }
+  
+  .test-page .a {
+    font-size: 20px;
+  }
+  
+  .test-page .text-wrapper-31 {
+    font-size: 12px;
+  }
+
+  .test-page .text-wrapper-8 {
+    font-size: 20px;
+  }
+
+  .test-page .text-wrapper-9 {
+    font-size: 16px;
+  }
+
+  .test-page .element-2 {
+    font-size: 11px;
+  }
+
+  .test-page .skontaktuj-si-z-nami {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  .test-page .text-wrapper-12 {
+    font-size: 20px;
+  }
+
+  .test-page  .swiper {
+    height: 200px;
+  }
+
+  .test-page .element-3 {
+    font-size: 16px;
+  }
+
+  .test-page .text-wrapper-15 {
+    font-size: 18px;
+  }
+
+  th, td {
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  .test-page .logo-text {
+    padding: 20px 0;
+  }
+
+  .test-page .text-wrapper-18,
+  .test-page .text-wrapper-19,
+  .test-page .text-wrapper-20 {
+    font-size: 16px;
+  }
+
+  .test-page .contact-block {
+    padding: 20px 10px;
+  }
+
+  .test-page .text-wrapper-23 {
+    font-size: 18px;
+  }
+
+  .test-page .social-media-item-2 {
+    width: 25px;
+    height: 25px;
+  }
+}
