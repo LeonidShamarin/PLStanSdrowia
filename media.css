@@ -59,6 +59,7 @@
     margin-left: 20%;
     margin-right: 20%;
   }
+
   .logo-text {
     margin-top: 2050px;
     max-width: 60%;
@@ -70,12 +71,15 @@
   .contact-block.overlap-3 {
     flex-direction: column;
     align-items: center;
-     }
+  }
 
-     .social-media-2,.text-wrapper-22, .text-wrapper-24{
-        margin-top: 200px;
-        margin-left: -50%;
-     }
+  .social-media-2,
+  .text-wrapper-22,
+  .text-wrapper-24 {
+    margin-top: 200px;
+    margin-left: -50%;
+  }
+
   .test-page .footer {
     flex-direction: column;
     align-items: center;
