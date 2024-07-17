@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-.test-page .div {
+.test-page .container {
   background-color: #f6f4f2;
   border: 1px solid;
   border-color: #a0b0c8;
@@ -195,6 +195,88 @@
 /*  */
 
 /*  */
+/* 1 block */
+.test-page .block {
+  display: inline-flex;
+  align-items: center;
+  gap: 129px;
+  position: absolute;
+  top: 169px;
+  left: 80px;
+}
+
+.test-page .title-subtitle {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.test-page .a {
+  position: relative;
+  width: 413px;
+  margin-top: -1px;
+  font-family: var(--desktop-title-h1-font-family);
+  font-weight: var(--desktop-title-h1-font-weight);
+  color: #2b3f5b;
+  font-size: var(--desktop-title-h1-font-size);
+  letter-spacing: var(--desktop-title-h1-letter-spacing);
+  line-height: var(--desktop-title-h1-line-height);
+  font-style: var(--desktop-title-h1-font-style);
+}
+
+.test-page .text-wrapper-31 {
+  position: relative;
+  width: 413px;
+  font-family: var(--desktop-body-small-font-family);
+  font-weight: var(--desktop-body-small-font-weight);
+  color: #2b3f5b;
+  font-size: var(--desktop-body-small-font-size);
+  letter-spacing: var(--desktop-body-small-letter-spacing);
+  line-height: var(--desktop-body-small-line-height);
+  font-style: var(--desktop-body-small-font-style);
+}
+.test-page .photo {
+  position: relative;
+  width: 738px;
+  height: 451.63px;
+}
+
+.test-page .overlap-group-3 {
+  position: relative;
+  height: 452px;
+}
+
+.test-page .top-image {
+  position: absolute;
+  width: 413px;
+  height: 440px;
+  top: 12px;
+  left: 0;
+}
+
+.test-page .box-icon-medical {
+  display: flex;
+  left: 343px;
+  width: 130px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 151px 137px;
+  position: relative;
+  background-color: #f1efe9b2;
+  border-radius: 300px 300px 0px 0px;
+  overflow: hidden;
+}
+
+.test-page .icon-medical {
+  position: relative;
+  width: 120px;
+  height: 122.29px;
+}
+/*  */
+
 .test-page .view {
   display: inline-flex;
   flex-direction: column;
@@ -230,7 +312,7 @@
 .test-page .element {
   display: flex;
   flex-direction: column;
-  width: 413px;
+  width: 370px;
   align-items: flex-start;
   gap: 16px;
   padding: 24px;
@@ -281,12 +363,12 @@
 
 .test-page .skontaktuj-si-z-nami-wrapper {
   display: flex;
-  width: 365px;
+  width: 345px;
   height: 50px;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 15px 20px;
+  padding: 5px 5px;
   position: relative;
   background-color: #cc8e1e1a;
   border-radius: 50px;
@@ -308,6 +390,7 @@
   white-space: nowrap;
   font-style: var(--desktop-button-font-style);
 }
+/*  */
 
 .test-page .view-3 {
   display: flex;
@@ -1034,75 +1117,6 @@
   border-radius: 28px;
 }
 
-.test-page .block {
-  display: inline-flex;
-  align-items: center;
-  gap: 129px;
-  position: absolute;
-  top: 169px;
-  left: 80px;
-}
-
-.test-page .title-subtitle {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 24px;
-  position: relative;
-  flex: 0 0 auto;
-}
-
-.test-page .a {
-  position: relative;
-  width: 413px;
-  margin-top: -1px;
-  font-family: var(--desktop-title-h1-font-family);
-  font-weight: var(--desktop-title-h1-font-weight);
-  color: #2b3f5b;
-  font-size: var(--desktop-title-h1-font-size);
-  letter-spacing: var(--desktop-title-h1-letter-spacing);
-  line-height: var(--desktop-title-h1-line-height);
-  font-style: var(--desktop-title-h1-font-style);
-}
-
-.test-page .text-wrapper-31 {
-  position: relative;
-  width: 413px;
-  font-family: var(--desktop-body-small-font-family);
-  font-weight: var(--desktop-body-small-font-weight);
-  color: #2b3f5b;
-  font-size: var(--desktop-body-small-font-size);
-  letter-spacing: var(--desktop-body-small-letter-spacing);
-  line-height: var(--desktop-body-small-line-height);
-  font-style: var(--desktop-body-small-font-style);
-}
-
-.test-page .photo {
-  position: relative;
-  width: 738px;
-  height: 451.63px;
-}
-
-.test-page .overlap-group-3 {
-  position: relative;
-  height: 452px;
-}
-
-.test-page .top-image {
-  position: absolute;
-  width: 413px;
-  height: 440px;
-  top: 12px;
-  left: 0;
-}
-
-.test-page .icon-medical {
-  position: absolute;
-  width: 395px;
-  height: 424px;
-  top: 0;
-  left: 343px;
-}
 /* footer */
 .test-page .footer {
   position: absolute;
