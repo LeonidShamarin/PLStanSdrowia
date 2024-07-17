@@ -437,7 +437,8 @@
 .test-page .arrow-right {
   position: relative;
   width: 88px;
-  height: 89px;
+  height: 130px;
+  margin-right: -10px;
   overflow: hidden;
   transform: rotate(180deg);
 }
@@ -477,11 +478,11 @@
 
 .test-page .polygon {
   position: absolute;
-  width: 14px;
-  height: 16px;
-  top: 37px;
-  left: 122px;
-  transform: rotate(-180deg);
+  width: 98px;
+  height: 80px;
+  top: 5px;
+  left: 85px;
+  transform: rotate(-360deg);
 }
 
 .test-page .photo-sale {
@@ -582,10 +583,10 @@
 
 .test-page .polygon-2 {
   position: absolute;
-  width: 14px;
-  height: 15px;
-  top: 36px;
-  left: 34px;
+  width: 98px;
+  height: 80px;
+  top: 5px;
+  left: 1px;
 }
 
 .test-page .rectangle-5 {
@@ -637,7 +638,6 @@
   width: 100%;
   flex: 0 0 auto;
 }
-
 
 .test-page .text-wrapper-16 {
   position: relative;
@@ -959,7 +959,7 @@
 /*  */
 .test-page .contact-block {
   position: absolute;
- 
+
   top: 3421px;
   left: 80px;
 }
@@ -972,7 +972,6 @@
   left: 0;
   background-color: #ffffff;
 }
-
 
 .test-page .text-wrapper-21 {
   position: absolute;
@@ -1234,3 +1233,8 @@
   letter-spacing: 0;
   line-height: 18px;
 }
+
+/* .swiper {
+  width: 600px;
+  height: 300px;
+} */

@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <div class="test-page">
@@ -134,19 +138,32 @@
               </div>
             </div>
           </div>
+
           <div class="view-3">
             <div class="text-wrapper-12">АКЦІЙНІ ПРОПОЗИЦІЇ</div>
             <div class="form-sale">
               <div class="frame-5">
                 <div class="arrow-right">
-                  <div class="overlap-group-2">
+                  <div class="overlap-group-2 swiper-button-prev">
                     <div class="rectangle"></div>
                     <div class="rectangle-2"></div>
-                    <img class="polygon" src="img/polygon-2.svg" />
+                    <img class="polygon" src="img/arrow right.svg" />
                   </div>
                 </div>
                 <div class="photo-sale">
-                  <img class="rectangle-3" src="img/rectangle-1138.png" />
+                  <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide" id="slider-frame">
+                        <img src="./img/Rectangle 1138.png" alt="" />
+                      </div>
+                      <div class="swiper-slide" id="slider-frame">
+                        <img src="./img/Rectangle 1138.png" alt="" />
+                      </div>
+                      <div class="swiper-slide" id="slider-frame">
+                        <img src="./img/Rectangle 1138.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
                   <div class="headline">
                     <p class="element-3">
                       Акція &#34;-40% на пробне заняття з кінезітерапії&#34;
@@ -158,10 +175,11 @@
                     <div class="text-wrapper-14">Переглянути детальніше</div>
                   </div>
                 </div>
-                <div class="arrow-right-2">
+
+                <div class="arrow-right-2 swiper-button-next">
                   <div class="overlap">
                     <div class="rectangle-4"></div>
-                    <img class="polygon-2" src="img/polygon-2-2.svg" />
+                    <img class="polygon-2" src="img/arrow right.svg" />
                   </div>
                   <div class="rectangle-5"></div>
                 </div>
@@ -183,7 +201,7 @@
                   </div>
                 </div>
                 <div class="agree">
-                  <img class="box" src="img/checkbox.svg" alt="checkbox"/>
+                  <img class="box" src="img/checkbox.svg" alt="checkbox" />
                   <p class="text-wrapper-17">
                     Wypełnienie formularza zgłoszeniowego jest równoznaczne z
                     wyrażeniem zgody na przetwarzanie danych osobowych,
@@ -197,8 +215,6 @@
               </div>
             </div>
           </div>
-
-
 
           <div class="price">
             <div class="text-wrapper-12">ПРАЙС-ЛИСТ</div>
@@ -385,5 +401,6 @@
         </footer>
       </div>
     </div>
+    <script type="module" src="./slider-media.js"></script>
   </body>
 </html>
