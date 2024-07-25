@@ -2,7 +2,7 @@
 
 ## Description
 
-This project aims to provide a health check system where users can monitor their health and book appointments with clinics. It includes features such as health assessment, clinic registration, and pricing information.
+The task was to create a webpage layout in one day. This project aims to provide a health check system where users can monitor their health and book appointments with clinics. It includes features such as health assessment, clinic registration, and pricing information.
 
 ## Features
 
